@@ -1,0 +1,57 @@
+<!-- @dsCard group="Brand" viewport="720x460" name="Data Viz and Charts" subtitle="Hero stat first; validated series palette; serif numbers" -->
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin:0; font-family: var(--font-body); background:#fff; padding:18px 22px; box-sizing:border-box; }
+  .lead { font-size:12px; line-height:1.5; color: var(--text-body); margin:0 0 12px; max-width:660px; }
+  .lead b { color: var(--text-heading); }
+  .row { display:flex; gap:16px; align-items:stretch; }
+
+  .demo { position:relative; width:330px; flex:none; border-radius:12px; overflow:hidden; background:#1E0B4B; padding:18px 20px; box-sizing:border-box; }
+  .demo::before { content:''; position:absolute; inset:0; background:
+     radial-gradient(120% 90% at 80% 10%, rgba(58,26,122,.9), transparent 60%); }
+  .demo > * { position:relative; }
+  .kick { font-size:8px; letter-spacing:.2em; text-transform:uppercase; color:#B7ADD6; font-weight:600; text-align:center; }
+  .num { font-family:"Instrument Serif", Georgia, serif; font-size:64px; line-height:1; color: var(--kitt-cyan); text-align:center; margin:6px 0 2px; letter-spacing:-1px; }
+  .num span { font-size:32px; color:#fff; }
+  .bar { width:170px; height:6px; border-radius:99px; background:rgba(255,255,255,.1); margin:6px auto 4px; overflow:hidden; }
+  .bar i { display:block; width:78%; height:100%; border-radius:99px; background:var(--kitt-cyan); }
+  .lbl { font-size:10px; font-weight:600; color:#fff; text-align:center; }
+  .chart { display:flex; align-items:flex-end; gap:2px; height:74px; margin-top:14px; padding-top:8px; border-top:1px solid rgba(255,255,255,.08); }
+  .chart i { flex:1; border-radius:4px 4px 0 0; }
+  .cx { display:flex; gap:2px; margin-top:4px; }
+  .cx s { flex:1; text-decoration:none; font-size:6.5px; color:rgba(255,255,255,.4); text-align:center; }
+
+  .rules { flex:1; display:flex; flex-direction:column; gap:8px; min-width:0; }
+  .rl h4 { margin:0 0 3px; font-size:10px; letter-spacing:.09em; text-transform:uppercase; color: var(--text-heading); }
+  .rl p { margin:0; font-size:10.5px; line-height:1.45; color: var(--text-body); }
+  .rl.never h4 { color: var(--kitt-pink); }
+  .chips { display:flex; gap:5px; margin:2px 0 1px; }
+  .chips i { width:22px; height:22px; border-radius:6px; }
+  .chips s { text-decoration:none; font-size:8px; color:var(--text-body); align-self:center; }
+</style>
+<p class="lead"><b>Numbers are the story — lead with one hero stat, chart only when the shape matters.</b> Serif numbers (Instrument Serif), Outfit labels, count-up motion from the KittStat format. Series colours are chart-grade steps of the brand hues, machine-validated for colour-blind separation and contrast on BOTH the purple and off-white surfaces.</p>
+<div class="row">
+  <div class="demo">
+    <div class="kick">One subscription</div>
+    <div class="num">40<span>%</span></div>
+    <div class="bar"><i style="width:40%"></i></div>
+    <div class="lbl">cheaper than the tool stack it replaces</div>
+    <div class="chart">
+      <i style="height:46%;background:#00969E"></i>
+      <i style="height:64%;background:#00969E"></i>
+      <i style="height:58%;background:#00969E"></i>
+      <i style="height:82%;background:#00969E"></i>
+      <i style="height:100%;background:#F0408A"></i>
+    </div>
+    <div class="cx"><s>Mon</s><s>Tue</s><s>Wed</s><s>Thu</s><s>Fri</s></div>
+  </div>
+  <div class="rules">
+    <div class="rl"><h4>Series order — fixed, never cycled</h4>
+      <div class="chips"><i style="background:#00969E"></i><i style="background:#F0408A"></i><i style="background:#9D71F7"></i><i style="background:#D14E20"></i><s>then "Other" in lavender #B7ADD6 — never a 5th hue</s></div>
+      <p>Chart teal → pink → purple → chart orange. Colour follows the entity, never its rank. Same four on dark and light. Chart teal and chart orange are data-viz-only hues, never brand colours — orange is killed as a brand accent.</p></div>
+    <div class="rl"><h4>Hero stat (KittStat)</h4><p>Kicker: Outfit 600 uppercase, lavender. Number: Instrument Serif, teal (pink for the human side). Label: Outfit 600 white. Percentages get the thin pill bar. Motion: eased count-up ≈1.2s.</p></div>
+    <div class="rl"><h4>Marks</h4><p>Thin bars, 4px rounded data-ends, 2px gaps; 2px lines with an emphasised endpoint; recessive grid (white 6–8%); direct-label the point that matters, never every point. Data labels: Outfit, tabular numerals.</p></div>
+    <div class="rl"><h4>Ramps</h4><p>Magnitude: one teal ramp, light→dark. Polarity: teal ↔ chart orange around a neutral lavender-grey midpoint.</p></div>
+    <div class="rl never"><h4>Never</h4><p>Yellow as a series (highlight dots only). Two y-axes. Bright brand teal/yellow as marks on light. Rainbow ramps. Invented numbers — every figure comes from the truth docs or Mitch.</p></div>
+  </div>
+</div>

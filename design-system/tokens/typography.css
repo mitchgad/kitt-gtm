@@ -1,0 +1,30 @@
+:root {
+  --font-body:            'Outfit', Arial, Helvetica, sans-serif;
+  --font-serif-display:   'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --weight-light:    300;
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+  --text-xs:    12px;
+  --text-sm:    14px;
+  --text-base:  16px;
+  --text-lg:    18px;
+  --text-xl:    20px;
+  --text-2xl:   24px;
+  --text-3xl:   28px;
+  --text-4xl:   32px;
+  --text-5xl:   36px;
+  --text-6xl:   48px;
+  --text-7xl:   64px;
+  --leading-none:    1;
+  --leading-tight:   1.25;
+  --leading-snug:    1.375;
+  --leading-normal:  1.5;
+  --leading-relaxed: 1.625;
+  --tracking-tight:   -0.02em;
+  --tracking-normal:  0;
+  --tracking-wide:    0.02em;
+  --tracking-wider:   0.05em;
+  --tracking-widest:  0.1em;
+}

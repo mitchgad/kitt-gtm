@@ -10,6 +10,7 @@ Everything in this repo was checked against the marketing strategy doc and is cu
 - **[kitt-core-stats-story.md](kitt-core-stats-story.md)** — the adherence story and the five stats we're allowed to cite. Use these numbers; ignore any others.
 - **[kitt-stats-bank.md](kitt-stats-bank.md)** — the fuller stats bank behind the five core stats, with sources.
 - **[kitt-product-spec.md](kitt-product-spec.md)** — what the product actually does (kitt Clinician and kitt Companion), built from the codebase.
+- **[design-system/](design-system/)** — the kitt Design System: colour and type tokens, 34 custom icons, the logo, and five guideline cards (brand aesthetic, textures, product UI in marketing, data viz, iconography). Local mirror of the live claude.ai/design project; its readme carries the written visual spec.
 
 ## How we talk about kitt (the short version)
 

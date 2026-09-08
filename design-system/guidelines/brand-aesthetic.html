@@ -1,0 +1,34 @@
+<!-- @dsCard group="Brand" viewport="700x150" name="Design Aesthetic" subtitle="Rich, textured, dark-first — depth over flatness" -->
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin: 0; font-family: var(--font-body); padding: 0; background: #fff; display: flex; height: 150px; overflow: hidden; }
+  .panel { flex: 1; padding: 18px 22px; display: flex; flex-direction: column; justify-content: center; gap: 7px; position: relative; overflow: hidden; }
+  .p-dark  { background: var(--kitt-dark); }
+  .p-dark::after  { content:''; position:absolute; inset:0; background:
+     radial-gradient(90% 70% at 12% 8%, rgba(0,196,204,.28), transparent 55%),
+     radial-gradient(80% 75% at 95% 96%, rgba(240,64,138,.26), transparent 55%); }
+  .p-light { background: var(--kitt-off); }
+  .p-photo { background: #16324a; }
+  .p-photo::before { content:''; position:absolute; inset:0; filter: blur(4px); transform: scale(1.1); background:
+     radial-gradient(45% 60% at 32% 42%, #2a7d86, transparent 70%),
+     radial-gradient(52% 60% at 74% 58%, #7a3a5e, transparent 70%),
+     linear-gradient(120deg, #16324a, #3a2140); }
+  .p-photo::after { content:''; position:absolute; inset:0; background: linear-gradient(180deg, transparent 35%, rgba(30,11,75,.7)); }
+  .heading { font-weight: 600; font-size: 14px; line-height: 1.2; position: relative; }
+  .body { font-size: 12px; line-height: 1.5; position: relative; }
+  .pill { display: inline-flex; padding: 6px 16px; border-radius: 9999px; font-size: 11px; font-weight: 600; color: #fff; width: fit-content; position: relative; }
+</style>
+<div class="panel p-dark">
+  <span class="heading" style="color:#fff">Dark hero sections</span>
+  <span class="body" style="color:rgba(255,255,255,0.7)">Deep purple with layered aurora glows, mesh and grain. Depth, not one flat colour.</span>
+  <span class="pill" style="background: var(--kitt-pink)">Primary CTA</span>
+</div>
+<div class="panel p-light">
+  <span class="heading" style="color: var(--kitt-dark)">Light sections</span>
+  <span class="body" style="color: var(--text-body)">Off-white base with a subtle lavender tint. Treatment beyond the base: open decision, not yet signed off.</span>
+  <span class="pill" style="background: var(--kitt-cyan)">Secondary CTA</span>
+</div>
+<div class="panel p-photo">
+  <span class="heading" style="color:#fff">Real photography</span>
+  <span class="body" style="color:rgba(255,255,255,0.8)">Noosa, founders, clinics &mdash; blurred or scrimmed into the palette. Texture that's ours, not stock. Whitespace is a tool, not a mandate.</span>
+</div>

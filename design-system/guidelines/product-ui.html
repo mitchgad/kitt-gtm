@@ -1,0 +1,71 @@
+<!-- @dsCard group="Brand" viewport="720x420" name="Product UI in Marketing" subtitle="Recreate in the dark theme — never raw screenshots" -->
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { margin:0; font-family: var(--font-body); background:#fff; padding:18px 22px; box-sizing:border-box; }
+  .lead { font-size:12px; line-height:1.5; color: var(--text-body); margin:0 0 12px; max-width:660px; }
+  .lead b { color: var(--text-heading); }
+  .row { display:flex; gap:16px; align-items:stretch; }
+
+  /* demo panel */
+  .demo { position:relative; width:330px; flex:none; border-radius:12px; overflow:hidden; background:#1E0B4B; }
+  .demo::before { content:''; position:absolute; inset:0; background:
+     radial-gradient(120% 90% at 12% 8%, rgba(0,196,204,.30), transparent 55%),
+     radial-gradient(110% 90% at 92% 94%, rgba(240,64,138,.28), transparent 55%); }
+  .win { position:absolute; left:22px; top:34px; width:240px; border-radius:10px; background:#0D0620;
+     box-shadow:0 18px 40px rgba(10,4,26,.6), 0 0 34px rgba(240,64,138,.22); overflow:hidden; }
+  .bar { height:18px; background:#191036; display:flex; align-items:center; gap:4px; padding:0 8px; }
+  .bar i { width:6px; height:6px; border-radius:50%; }
+  .bar span { flex:1; text-align:center; font-size:6.5px; letter-spacing:.04em; color:rgba(255,255,255,.35); }
+  .win .pad { padding:9px 10px 11px; }
+  .rec { display:flex; align-items:center; gap:5px; font-size:7.5px; font-weight:600; color:#fff; }
+  .rec i { width:5px; height:5px; border-radius:50%; background:var(--kitt-pink); }
+  .wave { display:flex; align-items:center; gap:3px; height:16px; margin:7px 0 8px; }
+  .wave i { flex:1; border-radius:99px; background:var(--kitt-cyan); }
+  .nline { height:4px; border-radius:99px; background:rgba(255,255,255,.16); margin-top:5px; }
+  .phone { position:absolute; right:16px; bottom:-14px; width:84px; height:168px; border-radius:20px;
+     background:#0D0620; box-shadow:0 16px 36px rgba(10,4,26,.65), 0 0 30px rgba(0,196,204,.22);
+     padding:12px 9px; box-sizing:border-box; }
+  .ring { width:34px; height:34px; margin:4px auto 8px; border-radius:50%;
+     border:3.5px solid rgba(255,255,255,.1); border-top-color:var(--kitt-cyan); border-right-color:var(--kitt-cyan);
+     display:flex; align-items:center; justify-content:center; font-size:8px; font-weight:700; color:#fff; }
+  .ex { height:16px; border-radius:5px; background:rgba(255,255,255,.06); margin-top:5px; display:flex; align-items:center; gap:4px; padding:0 5px; }
+  .ex i { width:6px; height:6px; border-radius:50%; background:rgba(0,196,204,.6); flex:none; }
+  .ex b { height:3.5px; border-radius:99px; background:rgba(255,255,255,.28); flex:1; }
+  .cap { position:absolute; left:22px; bottom:10px; font-size:8px; letter-spacing:.1em; color:rgba(255,255,255,.5); text-transform:uppercase; }
+
+  /* rules */
+  .rules { flex:1; display:flex; flex-direction:column; gap:9px; min-width:0; }
+  .rl h4 { margin:0 0 3px; font-size:10px; letter-spacing:.09em; text-transform:uppercase; }
+  .rl p { margin:0; font-size:10.5px; line-height:1.45; color: var(--text-body); }
+  .rl.never h4 { color: var(--kitt-pink); }
+  .rl:not(.never) h4 { color: var(--text-heading); }
+</style>
+<p class="lead"><b>The app in marketing is a recreation, never a raw screenshot.</b> Rebuild the one moment that does the job from the tokens, on a deep-ink surface darker than the hero purple. One moment, one job, one device per frame — and show the loop, not just the notes.</p>
+<div class="row">
+  <div class="demo">
+    <div class="win">
+      <div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span>kitt — session</span></div>
+      <div class="pad">
+        <div class="rec"><i></i>Recording&hellip;</div>
+        <div class="wave"><i style="height:4px"></i><i style="height:9px"></i><i style="height:5px"></i><i style="height:12px"></i><i style="height:7px"></i><i style="height:14px"></i><i style="height:6px"></i><i style="height:10px"></i><i style="height:4px"></i></div>
+        <div class="nline" style="width:88%"></div>
+        <div class="nline" style="width:72%"></div>
+        <div class="nline" style="width:80%"></div>
+      </div>
+    </div>
+    <div class="phone">
+      <div class="ring">78%</div>
+      <div class="ex"><i></i><b></b></div>
+      <div class="ex"><i></i><b></b></div>
+      <div class="ex"><i></i><b></b></div>
+    </div>
+    <span class="cap">Clinician + patient side</span>
+  </div>
+  <div class="rules">
+    <div class="rl"><h4>Frames</h4><p>Desktop: slim dark bar, traffic lights, muted title, no browser chrome. Phone: dark rounded slab, screen only — no notch, no hardware.</p></div>
+    <div class="rl"><h4>Styling</h4><p>Frames sit on brand textures with a pink or cyan glow and purple-tinted shadow. Bleeding a frame off the artboard edge is good cropping.</p></div>
+    <div class="rl"><h4>Crop</h4><p>Crop tight to the single moment; UI text stays legible at final size — scale the moment up, never shrink a whole screen in. Never slice through a line of UI text.</p></div>
+    <div class="rl"><h4>Content</h4><p>Fictional patients only, clinically real physio detail. Apple wearables only. &ldquo;Patient&rdquo; wording is correct inside clinician UI.</p></div>
+    <div class="rl never"><h4>Never</h4><p>Raw screenshots of the live app. Admin chrome — sidebar nav, data tables, Archive / Logout / Super Admin. Browser chrome. Real patient data. The old consumer fitness app.</p></div>
+  </div>
+</div>

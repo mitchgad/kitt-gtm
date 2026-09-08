@@ -1,0 +1,6 @@
+/* Kitt / Zone Blue — @font-face declarations
+   Fonts loaded from Google Fonts CDN.
+   Original brand uses self-hosted woff2 from github.com/zoneblue.
+   ────────────────────────────────────────────────────────────── */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
